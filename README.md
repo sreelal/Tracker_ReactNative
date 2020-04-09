@@ -12,6 +12,7 @@ To run the code in react native follow the steps below
 		ngrok http 3000 (This will start a temporary public server , which can be accessed from any physical device, so note the URL address showing after executing this command
 
 #2. Setup the app
+
 	a. Move to app folder - cd <pah to tracker-app/tracks>
 	b. Open 'tracker.js' and change 'baseURL' to the URL noted before after ngrok command (in server environment setup)
 	c. Run the app using command - npm start -c
